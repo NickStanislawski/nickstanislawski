@@ -12,23 +12,6 @@ My background combines technical experience in Linux, AWS, networking, and autom
 
 # Featured Security Projects
 
-## 🔐 Risk-Based Vulnerability Management Platform
-
-A vulnerability management platform designed to prioritize vulnerabilities based on risk rather than severity alone.
-
-Focus areas:
-
-- Vulnerability lifecycle management
-- Risk-based prioritization
-- CVSS analysis
-- Remediation tracking
-- Security reporting
-- Automation workflows
-
-[View Project →](PROJECT_LINK)
-
----
-
 ## 🛡️ Web Application Vulnerability Scanner
 
 A modular Python-based vulnerability scanner developed and tested against DVWA in an isolated security lab environment.
@@ -50,25 +33,7 @@ Technologies:
 - VirtualBox
 - HTML/CSS/JavaScript
 
-[View Project →](PROJECT_LINK)
-
----
-
-## ☁️ Hybrid Cloud Infrastructure Project
-
-Designed a hybrid cloud architecture solution focused on scalability, availability, and security for a seasonal business environment.
-
-Focus areas:
-
-- AWS cloud architecture
-- Infrastructure planning
-- Elastic scalability
-- Security considerations
-- High availability design
-
-[View Project →](PROJECT_LINK)
-
----
+[View Project →](https://github.com/NickStanislawski/vulnerability-scanner)
 
 # Technical Skills
 
@@ -84,9 +49,9 @@ Focus areas:
 
 ## Programming & Automation
 
-- Python
 - Bash
 - PowerShell
+- Python
 - JavaScript / TypeScript
 - Node.js
 - React
@@ -137,11 +102,11 @@ Completed June 2026
 
 Additional hands-on security work:
 
-- Hack The Box writeups
 - CVE analysis
 - Vulnerability research
 - Security lab documentation
 - Automation experiments
+- Hack The Box writeups
 
 ---
 
@@ -155,7 +120,7 @@ This operational perspective allows me to approach security challenges by connec
 
 # Connect
 
-🌐 Portfolio:  
+🌐 Portfolio  
 https://nickstanislawski.github.io/portfolio/
 
 💼 LinkedIn:  
