@@ -2,30 +2,51 @@
 
 ## Cybersecurity Engineer | Vulnerability Management | Security Automation
 
-Cybersecurity and IT professional focused on vulnerability management, application security, security automation, and cloud infrastructure.
+Cybersecurity and IT professional focused on vulnerability management, security automation, and application security. Experienced with Linux, Python, AWS, networking, and automation, with a strong interest in developing practical solutions that improve vulnerability assessment, prioritization, and remediation.
 
-I build hands-on security projects that demonstrate vulnerability discovery, risk analysis, remediation workflows, and secure engineering practices.
-
-My background combines technical experience in Linux, AWS, networking, and automation with over 10 years of leadership experience focused on process improvement, analytics, and operational excellence.
+My background combines over 10 years of leadership in process improvement, analytics, and operational excellence with technical experience, enabling me to connect security findings with business impact.
 
 ---
 
 # Featured Security Projects
 
-## 🛡️ Web Application Vulnerability Scanner
+## Risk-Based Vulnerability Management Platform
 
-A modular Python-based vulnerability scanner developed and tested against DVWA in an isolated security lab environment.
+A Python-based platform that retrieves real CVE data from the National Vulnerability Database (NVD), evaluates vulnerabilities using risk factors beyond CVSS severity, and prioritizes remediation efforts through an interactive dashboard.
 
-Capabilities:
+**Key Features**
+
+- Automated CVE retrieval from the NVD API
+- Risk-based vulnerability prioritization
+- CVSS analysis and custom risk scoring
+- Data normalization and processing
+- Interactive reporting dashboard
+
+**Technologies**
+
+- Python 
+- NVD API 
+- HTML 
+- CSS 
+- JavaScript
+
+[View Project →](https://github.com/NickStanislawski/vulnerability-scanner)
+
+
+## Web Application Vulnerability Scanner
+
+A modular Python-based vulnerability scanner built and validated against DVWA in an isolated security lab environment to identify common web application security weaknesses.
+
+**Key Features**
 
 - SQL Injection detection
-- Cross-Site Scripting (XSS) testing
+- Cross-Site Scripting (XSS) detection
 - Security header analysis
 - SSL/TLS configuration checks
 - Port exposure analysis
-- Automated vulnerability reporting
+- Interactive findings dashboard
 
-Technologies:
+**Technologies**
 
 - Python
 - Docker
@@ -34,6 +55,8 @@ Technologies:
 - HTML/CSS/JavaScript
 
 [View Project →](https://github.com/NickStanislawski/vulnerability-scanner)
+
+---
 
 # Technical Skills
 
@@ -64,13 +87,6 @@ Technologies:
 - Virtualization
 - Networking Fundamentals
 - Active Directory
-
-## Security Tools
-
-- Burp Suite
-- Nmap
-- Wireshark
-- SIEM Platforms
 
 ---
 
