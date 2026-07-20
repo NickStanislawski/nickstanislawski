@@ -10,7 +10,7 @@ My background combines over 10 years of leadership in process improvement, analy
 
 # Featured Security Projects
 
-## Risk-Based Vulnerability Management Platform
+## Risk-Based Vulnerability Prioritization Platform
 
 A Python-based platform that retrieves real CVE data from the National Vulnerability Database (NVD), evaluates vulnerabilities using risk factors beyond CVSS severity, and prioritizes remediation efforts through an interactive dashboard.
 
@@ -30,7 +30,7 @@ A Python-based platform that retrieves real CVE data from the National Vulnerabi
 - CSS 
 - JavaScript
 
-[View Project →](https://github.com/NickStanislawski/vulnerability-scanner)
+[View Project →](https://github.com/NickStanislawski/vulnerability-prioritization)
 
 
 ## Web Application Vulnerability Scanner
