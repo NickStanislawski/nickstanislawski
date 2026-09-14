@@ -1,8 +1,8 @@
 # Nicholas Stanislawski
 
-## Cybersecurity Engineer | Security Operations | Threat Management
+## Detection Engineering | Incident Response | Threat Hunting | Security Automation
 
-I focus on Security Operations, threat management, vulnerability management, application security, and security automation. My work centers on helping organizations identify meaningful security risks, assess and prioritize threats, improve detection and response processes, and create practical, repeatable controls that strengthen their security posture.
+Security Operations professional focused on detection engineering, incident response, threat hunting, endpoint investigation, and security automation. Hands-on experience building SIEM detections, investigating security incidents, analyzing endpoint telemetry, identifying detection gaps, and automating repeatable SecOps workflows.
 
 I combine Python, Linux, cloud technologies, networking, and data-driven analysis to turn security findings and threat intelligence into clear business decisions, effective response actions, and measurable improvements.
 
@@ -17,47 +17,84 @@ I combine Python, Linux, cloud technologies, networking, and data-driven analysi
 
 ## Featured Security Operations Projects
 
-#### SIEM Detection Engineering and Security Monitoring
+### SIEM Detection Engineering and Security Monitoring
 
 Built a Splunk-based security monitoring environment to ingest, normalize, and analyze Windows and Linux security telemetry for centralized detection and investigation.
 
-**Technologies:** Splunk Enterprise, SPL, Windows Event Logs, Linux Logs, MITRE ATT&CK, Sysmon
+**Key Features**
 
 - Developed SPL detection rules for suspicious authentication, process execution, privilege activity, and attacker behaviors.
 - Investigated alerts by correlating authentication, process, endpoint, and network events.
 - Tested and tuned detections against simulated attack activity to reduce false positives and improve detection fidelity.
 
-#### End-to-End Incident Response Investigation
+**Technologies**
+
+- Splunk Enterprise
+- SPL
+- Windows Event Logs
+- Linux Logs
+- MITRE ATT&CK
+- Sysmon
+
+### End-to-End Incident Response Investigation
 
 Conducted an end-to-end security incident investigation from initial detection and triage through containment, eradication, and recovery.
 
-**Technologies:** Splunk Enterprise, Windows Event Logs, Sysmon, PowerShell, MITRE ATT&CK, Windows
+**Key Features**
 
 - Correlated authentication, process, endpoint, and network telemetry to reconstruct attacker activity and develop an incident timeline.
 - Determined root cause, attack path, affected systems, and indicators of compromise.
 - Developed and executed containment, eradication, and recovery actions.
 - Produced a professional incident report documenting evidence, response actions, lessons learned, and recommendations.
 
-#### Threat Hunting and Endpoint Investigation
+**Technologies**
+
+- Splunk Enterprise
+- Windows Event Logs
+- Sysmon
+- PowerShell
+- MITRE ATT&CK
+- Windows
+
+### Threat Hunting and Endpoint Investigation
 
 Conducted hypothesis-driven threat hunts across endpoint, authentication, process, network, and DNS telemetry to identify attacker behavior not surfaced by existing alerts.
 
-**Technologies:** Splunk Enterprise, SPL, Sysmon, Windows Event Logs, PowerShell, Windows, MITRE ATT&CK
+**Key Features**
 
 - Investigated suspicious processes, parent-child process relationships, user activity, network connections, and persistence mechanisms.
 - Correlated activity across multiple telemetry sources and mapped attacker behaviors to MITRE ATT&CK techniques.
 - Converted validated hunting findings into new and improved SPL detections, closing visibility gaps identified during investigations.
 
-#### Security Operations Automation with PowerShell
+**Technologies**
+
+- Splunk Enterprise
+- SPL
+- Sysmon
+- Windows Event Logs
+- PowerShell
+- Windows
+- MITRE ATT&CK
+
+### Security Operations Automation with PowerShell
 
 Engineered a PowerShell-based SecOps automation tool to parse security events, identify suspicious activity, and automate repetitive investigation and triage tasks.
 
-**Technologies:** PowerShell, REST APIs, JSON, Windows Event Logs, Splunk Enterprise, Git
+**Key Features**
 
 - Integrated REST APIs to enrich IP addresses, domains, and other indicators with external threat intelligence.
 - Developed logic to correlate and prioritize security-event data, reducing manual analysis.
 - Integrated automated triage and enrichment into detection and incident-response workflows.
 - Generated standardized investigation output documenting suspicious activity, enriched indicators, supporting evidence, and recommended next steps.
+
+**Technologies**
+
+- PowerShell
+- REST APIs
+- JSON
+- Windows Event Logs
+- Splunk Enterprise
+- Git
 
 ## Technical Skills
 
