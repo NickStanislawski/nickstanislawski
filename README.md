@@ -1,157 +1,196 @@
 # Nicholas Stanislawski
 
-## Detection Engineering | Incident Response | Threat Hunting | Security Automation
+## Identity & Access Management | Identity Engineering | Identity Security | IAM Automation
 
-Security Operations professional focused on detection engineering, incident response, threat hunting, endpoint investigation, and security automation. Hands-on experience building SIEM detections, investigating security incidents, analyzing endpoint telemetry, identifying detection gaps, and automating repeatable SecOps workflows.
+Identity and Access Management professional with four years of IT operations experience and hands-on responsibility for identity administration, user provisioning, account lifecycle management, access permissions, and access reviews.
 
-I combine Python, Linux, cloud technologies, networking, and data-driven analysis to turn security findings and threat intelligence into clear business decisions, effective response actions, and measurable improvements.
+I combine professional IAM responsibilities with hands-on identity engineering across lifecycle automation, identity governance, SSO and federation, privileged access, and identity security.
+
+My work focuses on building secure, scalable, and automated identity processes using technologies including Active Directory, Okta, Microsoft Entra ID, PowerShell, Microsoft Graph, REST APIs, SAML, OAuth, OIDC, and SCIM.
 
 ## Professional Focus
 
-- Security Operations and threat management
-- Threat detection, analysis, and response
-- Vulnerability assessment, prioritization, and remediation strategy
-- Security automation that improves operational efficiency and consistency
-- Cloud, web application, and infrastructure security
-- Connecting technical findings, operational processes, and business impact
+- Identity lifecycle management and Joiner, Mover, Leaver (JML) processes
+- Identity governance and access certification
+- SSO, federation, and modern authentication
+- Privileged access and identity security
+- IAM automation and API integration
+- RBAC, MFA, least privilege, and access governance
+- Identity monitoring, auditing, and remediation
 
-## Featured Security Operations Projects
+## Featured IAM Engineering Projects
 
-### SIEM Detection Engineering and Security Monitoring
+### Identity Lifecycle Automation
 
-Built a Splunk-based security monitoring environment to ingest, normalize, and analyze Windows and Linux security telemetry for centralized detection and investigation.
-
-**Key Features**
-
-- Developed SPL detection rules for suspicious authentication, process execution, privilege activity, and attacker behaviors.
-- Investigated alerts by correlating authentication, process, endpoint, and network events.
-- Tested and tuned detections against simulated attack activity to reduce false positives and improve detection fidelity.
-
-**Technologies**
-
-- Splunk Enterprise
-- SPL
-- Windows Event Logs
-- Linux Logs
-- MITRE ATT&CK
-- Sysmon
-
-### End-to-End Incident Response Investigation
-
-Conducted an end-to-end security incident investigation from initial detection and triage through containment, eradication, and recovery.
+Engineered an enterprise identity lifecycle environment integrating Active Directory and Okta to automate identity and access management across the employee lifecycle.
 
 **Key Features**
 
-- Correlated authentication, process, endpoint, and network telemetry to reconstruct attacker activity and develop an incident timeline.
-- Determined root cause, attack path, affected systems, and indicators of compromise.
-- Developed and executed containment, eradication, and recovery actions.
-- Produced a professional incident report documenting evidence, response actions, lessons learned, and recommendations.
+- Built automated Joiner, Mover, and Leaver workflows for provisioning, role changes, and deprovisioning.
+- Automated account creation, group assignment, access changes, and account disablement using PowerShell and REST APIs.
+- Implemented role-based access controls using department and job-function groups.
+- Integrated SCIM provisioning to synchronize identity changes with connected applications.
+- Applied MFA and least-privilege principles throughout the identity lifecycle.
 
 **Technologies**
 
-- Splunk Enterprise
-- Windows Event Logs
-- Sysmon
-- PowerShell
-- MITRE ATT&CK
-- Windows
-
-### Threat Hunting and Endpoint Investigation
-
-Conducted hypothesis-driven threat hunts across endpoint, authentication, process, network, and DNS telemetry to identify attacker behavior not surfaced by existing alerts.
-
-**Key Features**
-
-- Investigated suspicious processes, parent-child process relationships, user activity, network connections, and persistence mechanisms.
-- Correlated activity across multiple telemetry sources and mapped attacker behaviors to MITRE ATT&CK techniques.
-- Converted validated hunting findings into new and improved SPL detections, closing visibility gaps identified during investigations.
-
-**Technologies**
-
-- Splunk Enterprise
-- SPL
-- Sysmon
-- Windows Event Logs
-- PowerShell
-- Windows
-- MITRE ATT&CK
-
-### Security Operations Automation with PowerShell
-
-Engineered a PowerShell-based SecOps automation tool to parse security events, identify suspicious activity, and automate repetitive investigation and triage tasks.
-
-**Key Features**
-
-- Integrated REST APIs to enrich IP addresses, domains, and other indicators with external threat intelligence.
-- Developed logic to correlate and prioritize security-event data, reducing manual analysis.
-- Integrated automated triage and enrichment into detection and incident-response workflows.
-- Generated standardized investigation output documenting suspicious activity, enriched indicators, supporting evidence, and recommended next steps.
-
-**Technologies**
-
+- Active Directory
+- Okta
 - PowerShell
 - REST APIs
+- SCIM
+- RBAC
+- MFA
 - JSON
-- Windows Event Logs
-- Splunk Enterprise
-- Git
+
+### Identity Governance & Access
+
+Designed an identity governance environment to manage entitlements, access requests, certifications, and least-privilege access across enterprise identities and applications.
+
+**Key Features**
+
+- Developed role-based access models using birthright and job-specific entitlements.
+- Configured access request and approval workflows for controlled entitlement assignment.
+- Built access certification campaigns for managers and application owners.
+- Applied separation-of-duties controls to identify conflicting or inappropriate access.
+- Identified stale, orphaned, and excessive access and supported remediation decisions.
+- Generated governance and audit evidence for access decisions and certification activity.
+
+**Technologies**
+
+- Identity Governance & Administration (IGA)
+- Active Directory
+- Okta
+- RBAC
+- Access Certification
+- PowerShell
+- REST APIs
+
+### SSO & Federation Engineering
+
+Engineered federated identity integrations using SAML 2.0, OAuth 2.0, and OpenID Connect to provide centralized authentication and secure application access.
+
+**Key Features**
+
+- Implemented SAML and OIDC-based SSO integrations across multiple applications.
+- Integrated applications with Okta and Microsoft Entra ID.
+- Configured claims, scopes, redirect URIs, attributes, and application assignments.
+- Analyzed OAuth/OIDC tokens and SAML assertions to validate authentication and authorization behavior.
+- Applied MFA and authentication policies to application access.
+- Troubleshot federation failures using identity-provider logs, protocol responses, assertions, and token claims.
+
+**Technologies**
+
+- Okta
+- Microsoft Entra ID
+- SAML 2.0
+- OAuth 2.0
+- OpenID Connect (OIDC)
+- MFA
+- REST APIs
+- Web Applications
+
+### Identity Security & Privileged Access
+
+Implemented privileged access controls, identity monitoring, and security automation to reduce standing privileges and identify identity-related security risks.
+
+**Key Features**
+
+- Implemented Microsoft Entra PIM with just-in-time role activation, approval requirements, MFA, and time-bound privileges.
+- Automated identity and privilege auditing using PowerShell and Microsoft Graph.
+- Identified stale and orphaned accounts, excessive privileges, persistent administrative access, and MFA gaps.
+- Analyzed sign-in and audit logs for suspicious authentication and privilege activity.
+- Monitored privileged role assignments, elevation, expiration, and administrative activity.
+- Generated identity security and compliance reporting to support remediation decisions.
+
+**Technologies**
+
+- Microsoft Entra ID
+- Microsoft Entra PIM
+- Okta
+- PowerShell
+- Microsoft Graph API
+- REST APIs
+- JSON
+- Identity & Audit Logs
 
 ## Technical Skills
 
-### Security Operations
+### Identity & Access Management
 
-- SIEM / Splunk
-- Alert triage
-- Log analysis
-- Security investigations
-- Security event analysis
-- IOC / IOA analysis
-- MITRE ATT&CK
-- Incident management
-
-### Detection, Response, and Threat Hunting
-
-- Detection engineering
-- Incident response
-- Threat hunting
-- Endpoint investigation
-- Root cause analysis
-- Authentication analysis
-- Process analysis
-- Detection tuning
-
-### Systems, Network, and Endpoint Security
-
-- Windows
-- Linux
+- Identity Lifecycle Management
+- Joiner, Mover, Leaver (JML)
+- User Provisioning & Deprovisioning
+- Role-Based Access Control (RBAC)
+- Multi-Factor Authentication (MFA)
+- Least Privilege
 - Active Directory
-- Windows Event Logs
-- Endpoint telemetry
-- TCP/IP
-- DNS
-- Network traffic analysis
-- Firewalls
-- Network security monitoring
+- Okta
+- Microsoft Entra ID
 
-### Security Automation and Development
+### Identity Governance & Administration
+
+- Access Reviews
+- Access Certification
+- Entitlement Management
+- Access Requests
+- Approval Workflows
+- Separation of Duties (SoD)
+- Birthright Access
+- Audit & Compliance Reporting
+
+### SSO & Federation
+
+- Single Sign-On (SSO)
+- SAML 2.0
+- OAuth 2.0
+- OpenID Connect (OIDC)
+- SCIM
+- Conditional Access
+- Claims, Tokens & Scopes
+
+### Privileged Access & Identity Security
+
+- Privileged Access Management (PAM)
+- Privileged Identity Management (PIM)
+- Just-in-Time (JIT) Access
+- Identity Threat Detection
+- Risk-Based Access
+- Zero Trust
+- Identity Monitoring & Auditing
+
+### IAM Automation & Development
 
 - PowerShell
 - Python
+- Microsoft Graph API
 - REST APIs
 - JSON
-- Log parsing
-- Automated triage
-- Workflow automation
+- API Integration
+- Workflow Automation
 - Git
 
-### Additional Security Knowledge
+## Professional Background
 
-- Vulnerability assessment and management
+I currently serve as an IT Operations Lead with responsibility for day-to-day technology operations and identity and access administration across Okta, Microsoft, and business-critical systems.
+
+My professional IAM responsibilities include user provisioning, account lifecycle changes, access permissions, Joiner, Mover, and Leaver processes, authentication and access troubleshooting, and periodic user access reviews supporting least-privilege access.
+
+This professional experience, combined with hands-on IAM engineering projects, provides a foundation across identity administration, governance, federation, automation, and identity security.
+
+## Additional Security Experience
+
+My broader cybersecurity work includes projects and labs involving:
+
+- SIEM and detection engineering
+- Incident response
+- Threat hunting and endpoint investigation
+- Security automation
+- Vulnerability assessment and prioritization
 - Application security
-- OWASP Top 10
-- Cloud security fundamentals
-- AWS
-- Docker
+- Cloud and infrastructure security
+
+These projects provide a broader security foundation supporting my primary focus on Identity and Access Management.
 
 ## Certifications
 
@@ -168,24 +207,10 @@ Engineered a PowerShell-based SecOps automation tool to parse security events, i
 ## Education
 
 **Western Governors University**  
-Bachelor of Science in Information Technology — Completed June 2026
-
-## Security Research and Labs
-
-- CVE analysis
-- Vulnerability research
-- Security lab documentation
-- Security automation experiments
-- Hack The Box writeups
-
-## Professional Background
-
-My experience combines cybersecurity, IT operations, and technical leadership. Over more than 10 years, I have led teams, improved processes, developed operational dashboards, and used data-driven methods to improve organizational performance.
-
-This background helps me approach cybersecurity from both a technical and operational perspective: understanding the finding, communicating its impact, and helping develop an actionable path toward remediation.
+Bachelor of Science in Information Technology — June 2026
 
 ## Connect
 
 - Portfolio: [nickstanislawski.github.io/portfolio](https://nickstanislawski.github.io/portfolio/)
 - LinkedIn: [linkedin.com/in/nickstanislawski](https://www.linkedin.com/in/nickstanislawski)
-- Email: [nick.stanislawski@outlook.com](mailto:nick.stanislawskil@outlook.com)
+- Email: [nick.stanislawski@outlook.com](mailto:nick.stanislawski@outlook.com)
