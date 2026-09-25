@@ -2,185 +2,101 @@
 
 ## Identity & Access Management | Identity Engineering | Identity Security | IAM Automation
 
-Identity and Access Management professional with four years of IT operations experience and hands-on responsibility for identity administration, user provisioning, account lifecycle management, access permissions, and access reviews.
+Identity & Access Management (IAM) Engineer with four years of IT operations experience and hands-on responsibility for identity administration, user provisioning, account lifecycle management, access permissions, and access reviews.
 
-I combine professional IAM responsibilities with hands-on identity engineering across lifecycle automation, identity governance, SSO and federation, privileged access, and identity security.
+My IAM engineering work focuses on identity lifecycle automation, identity governance, SSO and federation, privileged access, and identity security using Microsoft Entra ID, Active Directory, Okta, PowerShell, Microsoft Graph, REST APIs, and modern identity protocols.
 
-My work focuses on building secure, scalable, and automated identity processes using technologies including Active Directory, Okta, Microsoft Entra ID, PowerShell, Microsoft Graph, REST APIs, SAML, OAuth, OIDC, and SCIM.
-
-## Professional Focus
-
-- Identity lifecycle management and Joiner, Mover, Leaver (JML) processes
-- Identity governance and access certification
-- SSO, federation, and modern authentication
-- Privileged access and identity security
-- IAM automation and API integration
-- RBAC, MFA, least privilege, and access governance
-- Identity monitoring, auditing, and remediation
+---
 
 ## Featured IAM Engineering Projects
 
 ### Identity Lifecycle Automation
 
-Engineered an enterprise identity lifecycle environment integrating Active Directory and Okta to automate identity and access management across the employee lifecycle.
+Engineered an automated identity lifecycle environment supporting 50+ simulated identities across five departments and 10 role profiles, integrating Active Directory and Okta for role-based provisioning and access management.
 
 **Key Features**
+- Automated Joiner, Mover, and Leaver (JML) workflows using PowerShell and REST APIs.
+- Provisioned accounts and role-based access while modifying or revoking permissions as identities changed.
+- Implemented RBAC, MFA, and automated group assignment based on department and job-role attributes.
+- Integrated SCIM provisioning for identity synchronization with connected applications.
+- Built exception handling and audit logging and validated lifecycle workflows through 15+ test scenarios.
 
-- Built automated Joiner, Mover, and Leaver workflows for provisioning, role changes, and deprovisioning.
-- Automated account creation, group assignment, access changes, and account disablement using PowerShell and REST APIs.
-- Implemented role-based access controls using department and job-function groups.
-- Integrated SCIM provisioning to synchronize identity changes with connected applications.
-- Applied MFA and least-privilege principles throughout the identity lifecycle.
+**Technologies:** Active Directory • Okta • PowerShell • REST APIs • SCIM • RBAC • MFA • JSON
 
-**Technologies**
-
-- Active Directory
-- Okta
-- PowerShell
-- REST APIs
-- SCIM
-- RBAC
-- MFA
-- JSON
+---
 
 ### Identity Governance & Access
 
-Designed an identity governance environment to manage entitlements, access requests, certifications, and least-privilege access across enterprise identities and applications.
+Engineered an identity governance environment for 50+ simulated identities across five departments, governing 25+ entitlements across five applications through role-based access and certification policies.
 
 **Key Features**
+- Built access certification campaigns and review workflows evaluating 50+ access assignments.
+- Enabled approval, revocation, modification, and escalation of inappropriate or unnecessary access.
+- Implemented RBAC and 5+ Segregation of Duties (SoD) controls.
+- Identified excessive, conflicting, stale, and orphaned access and supported least-privilege remediation.
+- Developed access request, approval, and audit workflows to produce traceable governance evidence.
 
-- Developed role-based access models using birthright and job-specific entitlements.
-- Configured access request and approval workflows for controlled entitlement assignment.
-- Built access certification campaigns for managers and application owners.
-- Applied separation-of-duties controls to identify conflicting or inappropriate access.
-- Identified stale, orphaned, and excessive access and supported remediation decisions.
-- Generated governance and audit evidence for access decisions and certification activity.
+**Technologies:** Identity Governance & Administration (IGA) • Active Directory • Okta • RBAC • Access Certification • PowerShell • REST APIs
 
-**Technologies**
-
-- Identity Governance & Administration (IGA)
-- Active Directory
-- Okta
-- RBAC
-- Access Certification
-- PowerShell
-- REST APIs
+---
 
 ### SSO & Federation Engineering
 
-Engineered federated identity integrations using SAML 2.0, OAuth 2.0, and OpenID Connect to provide centralized authentication and secure application access.
+Engineered federated SSO for 50+ simulated identities across 5+ applications, integrating Okta and Microsoft Entra ID using SAML 2.0 and OpenID Connect (OIDC) for centralized authentication.
 
 **Key Features**
+- Integrated 5+ applications with role-based SSO and MFA.
+- Mapped identity attributes, groups, and claims to control application access across 10+ role profiles.
+- Implemented OAuth 2.0 and OIDC authentication flows using authorization, tokens, scopes, redirect URIs, and claims.
+- Analyzed SAML assertions and OAuth/OIDC tokens to validate authentication and authorization behavior.
+- Validated and troubleshot federation across 10+ test scenarios involving claims, redirect URIs, tokens, access assignments, and authentication policies.
 
-- Implemented SAML and OIDC-based SSO integrations across multiple applications.
-- Integrated applications with Okta and Microsoft Entra ID.
-- Configured claims, scopes, redirect URIs, attributes, and application assignments.
-- Analyzed OAuth/OIDC tokens and SAML assertions to validate authentication and authorization behavior.
-- Applied MFA and authentication policies to application access.
-- Troubleshot federation failures using identity-provider logs, protocol responses, assertions, and token claims.
+**Technologies:** Okta • Microsoft Entra ID • SAML 2.0 • OAuth 2.0 • OpenID Connect (OIDC) • SSO • MFA • REST APIs
 
-**Technologies**
-
-- Okta
-- Microsoft Entra ID
-- SAML 2.0
-- OAuth 2.0
-- OpenID Connect (OIDC)
-- MFA
-- REST APIs
-- Web Applications
+---
 
 ### Identity Security & Privileged Access
 
-Implemented privileged access controls, identity monitoring, and security automation to reduce standing privileges and identify identity-related security risks.
+Engineered privileged access and identity security controls using Microsoft Entra ID, combining Just-in-Time access, identity monitoring, automation, and privileged-access remediation.
 
 **Key Features**
+- Implemented Microsoft Entra PIM across 5+ privileged roles supporting 10+ administrative identities.
+- Configured Just-in-Time activation, time-bound role assignments, approval workflows, and MFA-protected elevation.
+- Automated 5+ identity security checks using PowerShell and Microsoft Graph API.
+- Identified persistent administrative access, stale privileged accounts, excessive role assignments, and other high-risk access conditions.
+- Automated remediation workflows to revoke unnecessary permissions and reduce standing privilege.
+- Analyzed Microsoft Entra sign-in and audit logs across 10+ security scenarios and generated traceable identity security evidence.
 
-- Implemented Microsoft Entra PIM with just-in-time role activation, approval requirements, MFA, and time-bound privileges.
-- Automated identity and privilege auditing using PowerShell and Microsoft Graph.
-- Identified stale and orphaned accounts, excessive privileges, persistent administrative access, and MFA gaps.
-- Analyzed sign-in and audit logs for suspicious authentication and privilege activity.
-- Monitored privileged role assignments, elevation, expiration, and administrative activity.
-- Generated identity security and compliance reporting to support remediation decisions.
+**Technologies:** Microsoft Entra ID • Microsoft Entra PIM • PowerShell • Microsoft Graph API • REST APIs • JIT Access • Identity & Audit Logs
 
-**Technologies**
-
-- Microsoft Entra ID
-- Microsoft Entra PIM
-- Okta
-- PowerShell
-- Microsoft Graph API
-- REST APIs
-- JSON
-- Identity & Audit Logs
+---
 
 ## Technical Skills
 
 ### Identity & Access Management
+Microsoft Entra ID • Active Directory • Okta • Identity Lifecycle Management • Joiner/Mover/Leaver (JML) • Provisioning & Deprovisioning • RBAC • MFA • Least Privilege
 
-- Identity Lifecycle Management
-- Joiner, Mover, Leaver (JML)
-- User Provisioning & Deprovisioning
-- Role-Based Access Control (RBAC)
-- Multi-Factor Authentication (MFA)
-- Least Privilege
-- Active Directory
-- Okta
-- Microsoft Entra ID
+### Identity Governance & Federation
+IGA • Access Reviews & Certification • Segregation of Duties (SoD) • SSO • SAML 2.0 • OAuth 2.0 • OIDC • SCIM • Conditional Access • PIM
 
-### Identity Governance & Administration
+### Automation & Development
+PowerShell • Python • Microsoft Graph API • REST APIs • JSON • Git
 
-- Access Reviews
-- Access Certification
-- Entitlement Management
-- Access Requests
-- Approval Workflows
-- Separation of Duties (SoD)
-- Birthright Access
-- Audit & Compliance Reporting
-
-### SSO & Federation
-
-- Single Sign-On (SSO)
-- SAML 2.0
-- OAuth 2.0
-- OpenID Connect (OIDC)
-- SCIM
-- Conditional Access
-- Claims, Tokens & Scopes
-
-### Privileged Access & Identity Security
-
-- Privileged Access Management (PAM)
-- Privileged Identity Management (PIM)
-- Just-in-Time (JIT) Access
-- Identity Threat Detection
-- Risk-Based Access
-- Zero Trust
-- Identity Monitoring & Auditing
-
-### IAM Automation & Development
-
-- PowerShell
-- Python
-- Microsoft Graph API
-- REST APIs
-- JSON
-- API Integration
-- Workflow Automation
-- Git
+---
 
 ## Professional Background
 
-I currently serve as an IT Operations Lead with responsibility for day-to-day technology operations and identity and access administration across Okta, Microsoft, and business-critical systems.
+I serve as the sole on-site IT resource for a 200-user environment, managing day-to-day technology operations while supporting identity and access administration across Okta, Microsoft, eLead, and other business-critical systems.
 
-My professional IAM responsibilities include user provisioning, account lifecycle changes, access permissions, Joiner, Mover, and Leaver processes, authentication and access troubleshooting, and periodic user access reviews supporting least-privilege access.
+My IAM responsibilities include administration of more than 1,000 user accounts, identity lifecycle management, provisioning and deprovisioning, access permissions, authentication troubleshooting, and quarterly access reviews.
 
-This professional experience, combined with hands-on IAM engineering projects, provides a foundation across identity administration, governance, federation, automation, and identity security.
+I manage approximately 150 identity lifecycle events annually across employee onboarding, offboarding, and role changes while supporting least-privilege access across the environment.
+
+---
 
 ## Additional Security Experience
 
-My broader cybersecurity work includes projects and labs involving:
+My broader cybersecurity work includes hands-on projects and labs involving:
 
 - SIEM and detection engineering
 - Incident response
@@ -190,7 +106,9 @@ My broader cybersecurity work includes projects and labs involving:
 - Application security
 - Cloud and infrastructure security
 
-These projects provide a broader security foundation supporting my primary focus on Identity and Access Management.
+These projects provide a broader security foundation supporting my primary focus on Identity & Access Management.
+
+---
 
 ## Certifications
 
@@ -204,10 +122,14 @@ These projects provide a broader security foundation supporting my primary focus
 - ITIL 4 Foundation
 - Google AI Essentials
 
+---
+
 ## Education
 
 **Western Governors University**  
 Bachelor of Science in Information Technology — June 2026
+
+---
 
 ## Connect
 
