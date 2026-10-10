@@ -55,22 +55,6 @@ Engineered federated SSO for 50+ simulated identities across 5+ applications, in
 
 ---
 
-### Identity Security & Privileged Access
-
-Engineered privileged access and identity security controls using Microsoft Entra ID, combining Just-in-Time access, identity monitoring, automation, and privileged-access remediation.
-
-**Key Features**
-- Implemented Microsoft Entra PIM across 5+ privileged roles supporting 10+ administrative identities.
-- Configured Just-in-Time activation, time-bound role assignments, approval workflows, and MFA-protected elevation.
-- Automated 5+ identity security checks using PowerShell and Microsoft Graph API.
-- Identified persistent administrative access, stale privileged accounts, excessive role assignments, and other high-risk access conditions.
-- Automated remediation workflows to revoke unnecessary permissions and reduce standing privilege.
-- Analyzed Microsoft Entra sign-in and audit logs across 10+ security scenarios and generated traceable identity security evidence.
-
-**Technologies:** Microsoft Entra ID • Microsoft Entra PIM • PowerShell • Microsoft Graph API • REST APIs • JIT Access • Identity & Audit Logs
-
----
-
 ## Technical Skills
 
 ### Identity & Access Management
