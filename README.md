@@ -10,7 +10,8 @@ My IAM engineering work focuses on identity lifecycle automation, identity gover
 
 ## Featured IAM Engineering Projects
 
-### Identity Lifecycle Automation
+### [Identity Lifecycle Automation](https://github.com/NickStanislawski/Identity-Lifecycle-Automation)
+
 
 Engineered an automated identity lifecycle environment supporting 50+ simulated identities across five departments and 10 role profiles, integrating Active Directory and Okta for role-based provisioning and access management.
 
@@ -25,7 +26,8 @@ Engineered an automated identity lifecycle environment supporting 50+ simulated 
 
 ---
 
-### Identity Governance & Access
+### [Identity Governance & Access](https://github.com/NickStanislawski/Identity-Governance-Access)
+
 
 Engineered an identity governance environment for 50+ simulated identities across five departments, governing 25+ entitlements across five applications through role-based access and certification policies.
 
@@ -40,7 +42,7 @@ Engineered an identity governance environment for 50+ simulated identities acros
 
 ---
 
-### SSO & Federation Engineering
+### [SSO & Federation Engineering](https://github.com/NickStanislawski/SSO-Federated-Identity)
 
 Engineered federated SSO for 50+ simulated identities across 5+ applications, integrating Okta and Microsoft Entra ID using SAML 2.0 and OpenID Connect (OIDC) for centralized authentication.
 
